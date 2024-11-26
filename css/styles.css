@@ -1,0 +1,157 @@
+/* Common styles */
+
+body {
+  font-family: roboto, sans-serif;
+  font-style: italic;
+  color: #333;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-style: normal;
+  margin: 0;
+}
+
+/* Header */
+
+.header {
+  background-color: #ffffff;
+  color: 2e2f42, 434455, 4d5ae5, e7e9fc, ffffff;
+  width: 1440px;
+  height: 72px;
+}
+
+.header-nav {
+  display: list-item;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+.header-logo {
+  color: #4d5ae5, #2e2f42;
+  background-color: #ffffff;
+  font-family: Raleway-bold, sans-serif;
+  text-decoration: none;
+  width: 44px;
+  height: hug;
+  letter-spacing: 3%;
+  line-height: 21px;
+}
+
+.header-nav-container {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-nav-container-item {
+  margin: 0 10px;
+}
+
+.header-address {
+  font-style: normal;
+  margin-top: 10px;
+}
+
+.header-address-container {
+  list-style: none;
+  padding: 0;
+}
+
+.header-address-container-item {
+  color: white;
+  text-decoration: none;
+}
+
+.header-address-link:hover {
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+.hero-name {
+  color: #ffffff;
+}
+.hero-btn {
+  color: #4d5ae5;
+}
+
+/* Our Directions */
+.directions {
+  background-color: #ffffff;
+}
+.directions-name {
+  color: #333;
+}
+.directions-list {
+  color: #333;
+}
+.directions-item {
+  color: #333;
+}
+.directions-item-name {
+  color: #333;
+}
+.directions-item-text {
+  color: #333;
+}
+
+/* Our Team */
+.team {
+  color: #333;
+}
+.team-name {
+  color: #333;
+}
+.team-list {
+  color: #333;
+}
+.team-item {
+  color: #333;
+}
+.team-image {
+  width: 264px;
+  height: 260px;
+}
+.team-member {
+  color: #333;
+}
+.team-text {
+  color: #333;
+}
+/* Our Portfolio */
+.portfolio {
+  background-color: #ffffff;
+}
+.portfolio-name {
+  color: #333;
+}
+.portfolio-list {
+  color: #333;
+}
+.portfolio-item {
+  color: #333;
+}
+.portfolio-img {
+  width: 360px;
+  height: 300px;
+}
+.portfolio-item-name {
+  color: #333;
+}
+.portfolio-text {
+  color: #333;
+}
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: #4d5ae5, #2e2f42;
+}
+.footer-text {
+  color: #ffffff;
+}
