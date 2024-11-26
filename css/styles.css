@@ -1,9 +1,9 @@
 /* Common styles */
 
 body {
-  font-family: roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
-  color: #333;
+  color: #434455;
   background-color: #ffffff;
   cursor: pointer;
   font-style: normal;
@@ -36,7 +36,9 @@ body {
   letter-spacing: 3%;
   line-height: 21px;
 }
-
+.logo-part {
+  color: #2e2f42;
+}
 .header-nav-container {
   display: flex;
   list-style: none;
@@ -63,7 +65,7 @@ body {
   text-decoration: none;
 }
 
-.header-address-link:hover {
+.header-address-link {
   text-decoration: none;
 }
 
