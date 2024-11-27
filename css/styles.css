@@ -36,8 +36,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: flex;
-  align-items: center;
   text-decoration: none;
 }
 .nav-link:hover,
@@ -49,21 +47,16 @@ body {
 
 .header-address {
   font-style: normal;
-  display: flex;
-  align-items: right;
 }
 .header {
-  display: flex;
-  justify-content: space-between;
   background-color: #ffffff;
-  justify-content: space-between;
 }
 .header-nav {
-  display: flex;
+  background-color: #ffffff;
 }
 
 .header-nav-container {
-  display: flex;
+  background-color: #ffffff;
 }
 
 .header-nav-container-item {
@@ -72,13 +65,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: flex;
-  align-items: center;
   background-color: #ffffff;
 }
 
 .header-address-list {
-  display: flex;
   list-style: none;
 }
 
@@ -103,20 +93,24 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
 }
 .hero-btn {
   color: #ffffff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
 
 /* Our Directions */
+
 .directions {
   background-color: #ffffff;
 }
@@ -140,6 +134,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Our Team */
@@ -148,12 +143,11 @@ body {
   background-color: #f4f4fd;
 }
 .team-name {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
 }
 .team-list {
@@ -173,7 +167,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 /* Our Portfolio */
@@ -186,8 +179,6 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
   color: #2e2f42;
 }
 .portfolio-list {
@@ -211,6 +202,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 /* Footer */
 .footer {
